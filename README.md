@@ -7,4 +7,4 @@ Click the mouse to play chess, black and white automatically switch
 
 When one color chess 5 in row, is win!
 
-Live Demo Please click link:
+Live Demo Please click link: https://people.eecs.ku.edu/~s777w427/EECS368Project/
