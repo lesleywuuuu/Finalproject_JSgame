@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    position: relative;
+    display: block;
+    background-color: rgb(187, 184, 189);
+    width: 100%;
+    height: 100%;
+}
+
+h1
+{
+    font-family: Algerian;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28; 
+    text-align: center; 
+    color: rgb(77, 30, 30);
+}
+
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20; 
+    text-align: center; 
+    color: rgb(100, 95, 69);
+}
+
+.chessboard_background
+{
+    overflow: hidden;
+    position: center;
+    width: 620px;
+    height: 620px;
+    margin: 15px auto; 
+    border: 1px #000 solid; 
+    box-shadow: 5px 5px 5px #808080,-2px -2px 2px #D5D5D5;
+    background: 1px rgb(249, 214, 91);
+    display: block;
+}
+
+.btn 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20; 
+    text-align: center; 
+    color: rgb(121, 71, 14);
+}
+
+.container
+ {
+    white-space: pre-line;
+    position: absolute;
+    display: block;
+    font-size: 0;
+    font-family: 'Roboto Slab', serif;
+    top: 12.5%;
+    left: 27.5%;
+    background-color:#44a7ce;
+    border-style: solid;
+    border-color:  #015272;
+    border-width: 1vh;
+    /*background-color: #533549;*/
+    /*box-shadow: 0 15px 25px rgba(0,0,0,.9);*/
+    /*border-radius: 10px;*/
+    width: 20%;
+    height: 15%;
+    text-align: center;
+  }
+
+  ul.menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 5%;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
